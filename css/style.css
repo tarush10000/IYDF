@@ -259,8 +259,8 @@
 }
 
 /*** Initiatives ***/
-#initiatives-img {
-    background-image: url('call-to-action.jpg');
+.initiatives-img {
+    background-image: url('../img/call-to-action.jpg');
     background-size: cover;
     background-position: center;
     height: 200px; /* Adjust the height as needed */
@@ -271,10 +271,9 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Optional: Adds shadow to text for better readability */
 }
 
-#initiatives-img h6 {
+.initiatives-img h6 {
     margin: 0; /* Removes default margin for the heading */
 }
-
 
 /*** Property List ***/
 .nav-pills .nav-item .btn {
