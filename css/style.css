@@ -240,7 +240,7 @@
 
 /*** Category ***/
 .cat-item div {
-    background: #FFFFFF;
+    background: none;
     border: 1px dashed #FB8500;
     transition: .5s;
 }
@@ -260,15 +260,17 @@
 
 /*** Initiatives ***/
 .initiatives-img {
-    background-image: url('../img/call-to-action.jpg');
+    background-image: url(../img/call-to-action.jpg);
     background-size: cover;
     background-position: center;
-    height: 200px; /* Adjust the height as needed */
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white; /* Ensure text is readable against the background image */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Optional: Adds shadow to text for better readability */
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px !important;
+    padding: 1.5rem !important;
 }
 
 .initiatives-img h6 {
