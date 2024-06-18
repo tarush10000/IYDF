@@ -237,6 +237,9 @@
     z-index: 1;
 }
 
+.more-content {
+    display: none;
+}
 
 /*** Initiatives ***/
 
