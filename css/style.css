@@ -330,6 +330,10 @@
     color: var(--secondary) !important;
 }
 
+.team-image{
+    cursor: pointer;
+}
+
 .modal {
     display: none;
     position: fixed;
